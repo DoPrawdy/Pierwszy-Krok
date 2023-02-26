@@ -1,6 +1,18 @@
 {
-  "unit": 262620,
+  "unit": 26667,
   "loops": {
-    "song": [[0, 1]]
+    "guitar1": [[0, 12, {"end_offset": -200}], [13, 14, {"start_offset": -1200, "end_offset": -2200}]],
+    "guitar2": [[1, 14, {"volume_modifier": -1}]],
+    "cello": [[2, 13, {"start_offset": -1000, "end_offset": 0, "volume_modifier": -4}]],
+    "guitar3": [[3, 5, {"start_offset": -1000, "end_offset": -1000, "volume_modifier": 5}], [9, 10, {"start_offset": -1000, "end_offset": -1000, "volume_modifier": 8}, [12, 13, {"start_offset": -1000, "volume_modifier": 5}]]],
+    "flute": [[5, 7, {"start_offset": -200, "end_offset": -200, "volume_modifier": -4}], [9, 13, {"start_offset": -200, "end_offset": -200, "volume_modifier": -4}]],
+    "guitar4": [[6, 7, {"volume_modifier": -2}], [10, 13, {"volume_modifier": -2}]],
+    "solo": [[7, 8, {"start_offset": -150, "volume_modifier": 2}]],
+    "solo2": [[8, 9, {"start_offset": -200, "end_offset": -4000, "volume_modifier": -3}]],
+    "kick": [[8, 12, {"start_offset": -200, "end_offset": -200, "volume_modifier": -4}]],
+    "hats": [[8, 12, {"volume_modifier": 2}]],
+    "base": [[8, 12, {"start_offset": -200, "end_offset": 13333, "volume_modifier": -6}]],
+    "slide": [[10, 12, {"start_offset": -250, "end_offset": -500, "volume_modifier": 3}]],
+    "guitar5": [[12, 13, {"start_offset": -200, "end_offset": 0, "volume_modifier": 1}]]
   }
 }
