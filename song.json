@@ -6,7 +6,7 @@
     "cello": [[2, 15, {"start_offset": -1000, "end_offset": 0, "volume_modifier": -4}]],
     "guitar3": [[3, 4, {"start_offset": -500, "end_offset": -1000, "volume_modifier": 4}], [9, 12, {"start_offset": -500, "end_offset": -1000, "volume_modifier": 6}]],
     "flute": [[4, 6, {"start_offset": -200, "end_offset": -200, "volume_modifier": -1}], [9, 15, {"start_offset": -200, "end_offset": -200, "volume_modifier": -1}]],
-    "guitar6": [[5, 6, {"volume_modifier": 12}], [11, 12, {"volume_modifier": 12}]],
+    "guitar5": [[5, 6, {"volume_modifier": 12}], [11, 12, {"volume_modifier": 12}]],
     "guitar4": [[9, 15, {"volume_modifier": 7}]],
     "solo": [[6, 9, {"start_offset": -150, "volume_modifier": 3}]],
     "kick": [[8, 15, {"start_offset": -200, "end_offset": -200, "volume_modifier": 8}]],
