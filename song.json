@@ -1,20 +1,21 @@
 {
   "unit": 26667,
   "loops": {
-    "guitar1": [[0, 7, {"end_offset": -200}], [15, 16, {"start_offset": 0, "end_offset": -5500}]],
+    "guitar1": [[0, 7, {"end_offset": -200, "volume_modifier": -7}], [15, 16, {"start_offset": 0, "end_offset": -5500, "volume_modifier": -7}]],
     "guitar2": [[1, 7, {"volume_modifier": 2}], [14, 16, {"volume_modifier": 3}]],
     "cello": [[2, 15, {"start_offset": -1000, "end_offset": 0, "volume_modifier": -4}]],
     "guitar3": [[3, 4, {"start_offset": -500, "end_offset": -1000, "volume_modifier": 4}], [9, 12, {"start_offset": -500, "end_offset": -1000, "volume_modifier": 6}]],
-    "flute": [[4, 6, {"start_offset": -200, "end_offset": -200, "volume_modifier": -1}], [9, 15, {"start_offset": -200, "end_offset": -200, "volume_modifier": -1}]],
+    "flute": [[4, 6, {"start_offset": -200, "end_offset": -200, "volume_modifier": -2}], [9, 15, {"start_offset": -200, "end_offset": -200, "volume_modifier": 0}]],
     "guitar5": [[5, 6, {"volume_modifier": 12}], [11, 12, {"volume_modifier": 12}]],
     "guitar4": [[9, 15, {"volume_modifier": 7}]],
-    "solo": [[6, 9, {"start_offset": -150, "volume_modifier": 3}]],
-    "kick": [[8, 15, {"start_offset": -200, "end_offset": -200, "volume_modifier": 8}]],
-    "hats": [[7, 14, {"volume_modifier": -14}]],
-    "snare": [[8, 14, {"volume_modifier": -8}]],
-    "songlang": [[8, 14, {"volume_modifier": -1}]],
-    "bass": [[3, 9, {"start_offset": 0, "end_offset": 0, "volume_modifier": -2}], [14, 15, {"start_offset": -150, "end_offset": 0, "volume_modifier": -2}]],
-    "bass2": [[9, 14, {"start_offset": -150, "end_offset": 0, "volume_modifier": 1}]],
+    "solo": [[6, 9, {"start_offset": -150, "volume_modifier": 2}]],
+    "kick": [[14, 15, {"start_offset": -200, "end_offset": -200, "volume_modifier": 0}]],
+    "hats": [[7, 8, {"volume_modifier": -1}]],
+    "drums": [[8, 12, {"volume_modifier": -4}]],
+    "drums2": [[12, 14, {"volume_modifier": -4}]],
+    "songlang": [[8, 14, {"volume_modifier": 2}]],
+    "bass": [[3, 9, {"start_offset": 0, "end_offset": 0, "volume_modifier": -8}], [14, 15, {"start_offset": -150, "end_offset": 0, "volume_modifier": -8}]],
+    "bass2": [[9, 14, {"start_offset": -150, "end_offset": 0, "volume_modifier": -6}]],
     "slide": [[12, 14, {"start_offset": -200, "end_offset": 5000, "volume_modifier": 5}]]
   }
 }
